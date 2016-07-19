@@ -17,7 +17,9 @@ h1{    text-align: left;
     text-shadow: 1px 1px 3px rgba(59, 59, 59, 0.49) !important;
     padding: 15px !important;
 }
-
+a{
+    color: rgba(37, 247, 182, 0.81) !important;
+}
 .main-gifs{
 display: inline-block !important;
     width: 500px;
