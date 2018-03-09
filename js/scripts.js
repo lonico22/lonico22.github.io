@@ -182,19 +182,20 @@ app.controller('projCtrl', function ($state, $stateParams, $scope, $location, da
     $scope.kineticType = {
         sources: [
             {
-                src: "assets/images/work/kinetic/kinetictype_DeadPoetsSociety.mp4",
+                src: "assets/images/work/kinetic/kinetictype.mp4",
                 type: "video/mp4"
                     },
             {
-                src: "assets/images/work/kinetic/kinetictype_DeadPoetsSociety.webm",
+                src: "assets/images/work/kinetic/kinetictype.webm",
                 type: "video/webm"
                     },
             {
-                src: "assets/images/work/kinetic/kinetictype_DeadPoetsSociety.theora.ogv",
+                src: "assets/images/work/kinetic/kinetictype.ogv",
                 type: "video/ogg"
                     },
 
-                    ]
+                    ],
+        poster: 'assets/images/work/kinetic/kinetictype.png'
     };
 
     $scope.options = {
