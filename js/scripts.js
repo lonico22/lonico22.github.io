@@ -137,6 +137,7 @@ app.controller('projCtrl', function ($state, $stateParams, $scope, $location, da
         $scope.curData = data["Work"][$scope.id];
     });
     $scope.setData = function (data) {
+        $window.scrollTo(0, 0);
         $state.transitionTo('project', {
             projName: data
         })
