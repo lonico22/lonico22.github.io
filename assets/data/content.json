@@ -103,7 +103,7 @@
         },
         "wantedCreativity":{
             "Nav":{
-                "Prev":"localitalian",
+                "Prev":"localItalian",
                 "Next":"marks"
             },
             "Key":"wantedCreativity",
