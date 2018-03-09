@@ -8,15 +8,6 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   font-size: 14px; }
-  @media screen and (max-width: 992px) {
-    body {
-      background-color: blue; } }
-  @media screen and (max-width: 768px) {
-    body {
-      background-color: coral; } }
-  @media screen and (max-width: 600px) {
-    body {
-      background-color: yellow; } }
 
 .container {
   max-width: 900px;
