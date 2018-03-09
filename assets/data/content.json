@@ -228,7 +228,7 @@
         },
         "shelter":{
             "Webpage":{
-                "Link": "assets/images/work/shelterpro/web/root/index.html",
+                "Link": "https://lonico22.github.io/shelterProject/index.html",
                 "Label": "Shelter Project site"
         },
             "Nav":{
