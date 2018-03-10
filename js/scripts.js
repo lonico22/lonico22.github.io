@@ -129,7 +129,7 @@ instaDirective.directive("instaFeed",function(){
 });
 
 
-app.controller('projCtrl', function ($state, $stateParams, $scope, $location, dataGetter, curProject) {
+app.controller('projCtrl', function ($state, $stateParams, $scope, $location, $window, dataGetter, curProject) {
     $scope.id = $stateParams.projName;
 
     dataGetter.getData().then(function (data) {
